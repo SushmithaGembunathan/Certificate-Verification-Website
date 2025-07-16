@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Certificate Verifier</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎓 Certificate Verifier</h1>
+
+    <div class="drop-zone" id="drop-zone">
+      <p>📁 Drag & drop certificate here or click to upload</p>
+      <input type="file" id="fileInput" hidden />
+    </div>
+
+    <input type="text" id="certId" placeholder="Enter Certificate ID (e.g. V1234)" />
+
+    <button id="verifyBtn">Verify Certificate</button>
+
+    <div id="result"></div>
+
+    <button id="toggleTheme">🌓 Toggle Dark Mode</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
